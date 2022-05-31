@@ -37,7 +37,6 @@ input.on('line', (data) => {
 function randomNumber() {
     const number = Math.round(Math.random() * (max - min)) + min;
 
-    console.log(number);
     return number;
 }
 
